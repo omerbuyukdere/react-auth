@@ -1,0 +1,50 @@
+/* .form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+.registerButton {
+  width: 10rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  letter-spacing: 1px;
+}
+.registerButton:hover {
+  width: 10rem;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 40px;
+  letter-spacing: 1px;
+}
+
+::placeholder {
+  font-size: 15px;
+} */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui.form {
+  gap: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.ui.input {
+  width: 20rem;
+}
+
+.ui.button {
+  border-radius: 3px;
+}
+.register {
+  display: flex;
+  justify-content: center;
+}
